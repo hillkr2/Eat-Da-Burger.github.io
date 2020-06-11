@@ -1,0 +1,113 @@
+body {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+    background:url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_980/https://www.swifterm.com/wp-content/uploads/2019/10/SwiftERM-Burger-980x735.jpg) ;
+	background-size: 100%; 
+    background-repeat: no-repeat; 
+    position:center
+}
+
+header {
+	background: #333;
+	margin: 0;
+	height: 60px;
+	display: flex;
+    align-items: center;
+    border-bottom-left-radius: 8px solid rgb(37, 192, 212);
+}
+
+h1 {
+	margin: 0 0 0 100px;
+	color: #fff;
+	font-size: 30px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+span {
+	font-size: 0.85em;
+	background: #B31B1B;
+	color: white;
+	padding: 3px 5px 3px 5px;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+button {
+	display: inline;
+}
+
+.devour-burger-form {
+	display: inline;
+}
+
+#burgers-container {
+	display: flex;
+}
+
+#burgers-available {
+	flex-grow: 1;
+	padding: 0.5em 2em 1.7em 2em;
+	background: rgb(204, 181, 155);
+	margin: 1em 1em 1em 0;
+    color: rgb(38, 20, 44);
+	opacity: 0.8;
+	font-size: larger;
+}
+
+#burgers-devoured {
+	flex-grow: 1;
+	background: #333;
+	padding: 0.5em 2em 1.7em 2em;
+	margin: 1em 0 1em 1em;
+	opacity: 0.8;
+}
+
+#burgers-devoured h2, #burgers-devoured div {
+	color: #ddd;
+}
+
+.wrapper {
+	max-width: 67%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#create-burger {
+	display: flex;
+	justify-content: center;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+
+.burger {
+	line-height: 2;
+}
+
+.eat-btn {
+	margin-right: 0.7em;
+	/* padding: 2px; */
+}
+
+#submit-btn {
+	padding: 0.45em 1em 0.45em 1em;
+	font-size: 1.5em;
+	background: rgb(60, 199, 192);
+	border: none;
+	margin-left: 0px;
+}
+
+#burger_name {
+	padding: 0.45em 1em 0.45em 1em;
+	font-size: 1.5em;
+	/* height:5px; */
+}
