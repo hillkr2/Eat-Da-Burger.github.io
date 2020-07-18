@@ -16,4 +16,10 @@ Run node.js and perform an npm install to bring in all liabrary and necesarry no
 
 Application Heroku Link
 The link below will give you direct access to Eat-Da-Burger web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
+
+Video:
 https://drive.google.com/file/d/1btfEwfmqdy_FJ9p4HZ4T0SxnXDEyS9oe/view
+
+Heroku:
+
+https://eat-da-burger804.herokuapp.com/
